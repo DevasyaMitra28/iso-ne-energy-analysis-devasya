@@ -1,0 +1,14 @@
+name: iso-ne
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - jupyterlab
+  - ipykernel
+  - matplotlib
+  - notebook
+  - pip:
+      - requests
